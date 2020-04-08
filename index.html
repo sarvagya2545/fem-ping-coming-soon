@@ -28,7 +28,9 @@
   <form class="form" action="index.js" method="post">
     <label for="email"></label>
     <input id="email" class="email" name="email" type="email" placeholder="Your email address"
-      onfocus="this.placeholder='' " onblur="this.placeholder = 'Your email address' ">
+      onfocus="this.placeholder='' " onblur="this.placeholder = 'Your email address' "
+      aria-label="email address"
+      >
     <p class="err-stat non-err">Please provide a valid email address</p>
     <button>Notify Me</button>
 
